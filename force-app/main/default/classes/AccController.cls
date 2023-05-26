@@ -3,7 +3,7 @@ public without sharing class AccController {
     @auraEnabled
     public static List<Account> getAllAccounts()
     {
-        System.debug('the changes are ');
+        System.debug('the changes are  ');
         return [select Name,Type,Phone From Account];
     }
 
